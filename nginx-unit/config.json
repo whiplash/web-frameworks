@@ -1,0 +1,14 @@
+{
+  "listeners": {
+    "*:8080": {
+      "pass": "applications/snunit"
+    }
+  },
+  "applications": {
+    "snunit": {
+      "type": "external",
+      "working_directory": "/app",
+      "executable": "snunit"
+    }
+  }
+}
