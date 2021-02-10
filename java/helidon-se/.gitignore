@@ -1,6 +1,3 @@
 .idea
-# Dockerfile
-# Dockerfile.jlink
-# Dockerfile.native
 *.iml
 target
